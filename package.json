@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "postcss tailwind.css -o dist/css/styles.css",
+    "watch": "postcss tailwind.css -o dist/css/styles.css --watch"
+  },
   "dependencies": {
     "autoprefixer": "^10.2.4",
     "postcss": "^8.2.6",
